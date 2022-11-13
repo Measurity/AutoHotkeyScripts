@@ -16,6 +16,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #MaxThreads, 50
 #MenuMaskKey vk07
 
+; Note: Add hotkey for scanner (default CTRL) to Q as well, which is used for animation cancelling.
+
 if !WinExist("Deep Rock Galactic")
 {
     Run "steam://run/548430" ; Steam URL protocol: https://developer.valvesoftware.com/wiki/Steam_browser_protocol
